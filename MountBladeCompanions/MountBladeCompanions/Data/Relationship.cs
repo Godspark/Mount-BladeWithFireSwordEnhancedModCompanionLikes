@@ -16,12 +16,14 @@ namespace MountBladeCompanions.Data
         
         public Relationship(Companion from, Companion to, Relation relation)
         {
-
+            From = from;
+            To = to;
+            Relation = relation;
         }
 
         public bool IsInDislikeRelation(Companion companion)
         {
-            if (Relation == Relation.Dislikes && (companion == From || companion == To))
+            if (Relation == Relation.Dislikes && (companion.Equals(From) || companion.Equals(To)))
                 return true;
             return false;
         }

@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CoreClasses\PropertyChangedBase.cs" />
     <Compile Include="Data\Companion.cs" />
     <Compile Include="Data\Relation.cs" />
     <Compile Include="Data\Relationship.cs" />

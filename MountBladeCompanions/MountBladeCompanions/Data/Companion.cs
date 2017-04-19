@@ -18,6 +18,6 @@ namespace MountBladeCompanions.Data
         public bool Equals(Companion other)
         {
             return Name == other.Name;
-        }
+        }        
     }
 }

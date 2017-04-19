@@ -9,6 +9,26 @@ namespace MountBladeCompanions.Operators
 {
     class Initializer
     {
+        public IEnumerable<Companion> GetAllCompanions()
+        {
+            var list = new List<Companion>();
+            list.Add(new Companion("Algirdas"));
+            list.Add(new Companion("Bakhyt"));
+            list.Add(new Companion("Fatima"));
+            list.Add(new Companion("Fedot"));
+            list.Add(new Companion("Ingri"));
+            list.Add(new Companion("Karlsson"));
+            list.Add(new Companion("Nogai"));
+            list.Add(new Companion("Oksana"));
+            list.Add(new Companion("Priest Spasokukotsky"));
+            list.Add(new Companion("Sarabun"));
+            list.Add(new Companion("Tepes"));
+            list.Add(new Companion("Varvara"));
+            list.Add(new Companion("Victor De La Buscador"));
+            list.Add(new Companion("Yelisei"));
+
+            return list;
+        }
 
 
         public IEnumerable<Relationship> GetInitialData()
